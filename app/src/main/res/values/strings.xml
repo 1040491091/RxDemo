@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">RxDemo</string>
+
+
+    <string-array name="welcomeList">
+        <item>遇见你的时刻连空气都是粉红色</item>
+        <item>爱一个人,没有值不值得,只有你愿不愿意</item>
+        <item>也许平凡如我们,拥有的第一个秘密,就叫做喜欢</item>
+        <item>意见一致,我说了算,意见不一致,她说了算.</item>
+        <item>哪些说星星亮的人,肯定没见过你的眼睛</item>
+        <item>愿得一人心,白首不相离</item>
+        <item>海底月是天上月,眼前人是心上人</item>
+        <item>我和你除了恋爱,没什么好谈的</item>
+        <item>只要心还在跳,就有我逗你笑</item>
+        <item>爱一个人是什么感觉,就像是突然有了软肋,又像是突然有了铠甲</item>
+    </string-array>
 </resources>

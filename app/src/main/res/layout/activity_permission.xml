@@ -26,8 +26,8 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/shape_circle_blue"
-        android:padding="3dp"
-        android:src="@drawable/circle_elves_ball" />
+        android:src="@drawable/circle_elves_ball"
+        android:padding="3dp" />
 
     <ProgressBar
         android:id="@+id/pb_activity_permission"

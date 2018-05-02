@@ -1,10 +1,9 @@
 package com.muspard.rxdemo.image;
 
 import android.content.Context;
-import android.net.Uri;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 import com.youth.banner.loader.ImageLoader;
 
 /**
@@ -22,7 +21,7 @@ public class GlideImageLoader extends ImageLoader {
          切记不要胡乱强转！
          */
 
-        //Glide 加载图片简单用法
-        Glide.with(context).load(path).into(imageView);
+        //Picasso 加载图片简单用法
+        Picasso.get().load((int) path).into(imageView);
     }
 }

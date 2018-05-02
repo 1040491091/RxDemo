@@ -1,8 +1,14 @@
 package com.muspard.rxdemo.ui;
 
 import android.Manifest;
+import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.net.Uri;
+import android.os.Environment;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -15,9 +21,15 @@ import com.vondear.rxtools.RxDeviceTool;
 import com.vondear.rxtools.RxLogTool;
 import com.vondear.rxtools.RxPermissionsTool;
 import com.vondear.rxtools.view.RxToast;
+import com.yalantis.ucrop.UCrop;
+import com.yalantis.ucrop.UCropActivity;
 
+import java.io.File;
 import java.lang.reflect.Array;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
 
 import butterknife.BindView;
 
@@ -51,6 +63,8 @@ public class PermissionActivity extends BaseActivity {
 
     @Override
     protected void initData() {
+
+
         mBuilder = RxPermissionsTool.with(this);
     }
 
